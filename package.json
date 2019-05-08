@@ -1,0 +1,30 @@
+{
+  "name": "react-redux-scss-setup",
+  "version": "1.0.0",
+  "description": "biolerplate for react app setup with redux, redux-thunk, scss, css, react-router-dom, eslint, husky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "biolerplate",
+    "react",
+    "redux",
+    "react-redux",
+    "thunk",
+    "css",
+    "scss",
+    "husky",
+    "git",
+    "hooks"
+  ],
+  "author": "Hemant Singh Nagarkoti <hemant_nagarkoti@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "react-redux-scss-setup": "index.js"
+  }
+}
