@@ -46,7 +46,7 @@ const cdIntoNewApp = () => {
 const installPackages = () => {
   return new Promise(resolve=>{
     console.log("\nInstalling redux, react-router, react-router-dom, react-redux, and redux-thunk\n".cyan)
-    shell.exec(`npm install --save redux react-router react-redux redux-thunk react-router-dom`, () => {
+    shell.exec(`npm install --save redux react-router react-redux redux-thunk react-router-dom styled-components`, () => {
       console.log("\nFinished installing packages\n".green)
       resolve()
     })

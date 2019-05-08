@@ -1,11 +1,38 @@
 module.exports = `import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import actions from '../actions';
+
+const Title = styled.h3\`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+\`;
+const DescriptionPara = styled.p\`
+  text-align: center;
+  font-size: 1em;
+\`;
+const Wrapper = styled.section\`
+  padding: 0em;
+  background: papayawhip;
+\`;
+
 class MyApp extends Component {
   render(){
     return(
       <div>
-        My App Loaded using biolerplate
+        <Title>
+          Start your next react project in seconds by using react-redux-scss-setup
+        </Title>
+        <div>
+          <Title>
+            Try Me ...
+          </Title>
+        </div>
+        <DescriptionPara>
+          <Link to={'https://github.com/hnagarkoti/react-redux-biolerplate'}>Click to view Github repositry</Link>
+        </DescriptionPara>
       </div>
     )
   }
