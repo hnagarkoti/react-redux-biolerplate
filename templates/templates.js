@@ -7,6 +7,7 @@ module.exports = {
   'components/Header.js': require('./Header.js'),
   'components/Footer.js': require('./Footer.js'),
   'components/MyApp.js': require('./MyApp.js'),
+  'images/smiley.gif': require('./smiley.gif'),
   'exe_comand': 'App.js',
   'exe_comand1': 'App.css',
   'exe_comand2': 'App.test.js',
