@@ -1,5 +1,4 @@
 module.exports = {
-  // 'App.js': require('./App.js'),
   'index.js': require('./index.js'),
   'store/index.js': require('./store.js'),
   'actions/index.js': require('./actions.js'),
@@ -7,7 +6,7 @@ module.exports = {
   'container/App.js': require('./App.js'),
   'components/Header.js': require('./Header.js'),
   'components/Footer.js': require('./Footer.js'),
-  'components/App.js': require('./MyApp.js'),
+  'components/MyApp.js': require('./MyApp.js'),
   'exe_comand': 'App.js',
   'exe_comand1': 'App.css',
   'exe_comand2': 'App.test.js',

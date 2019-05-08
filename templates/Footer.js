@@ -16,5 +16,5 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default export default connect(mapStateToProps, {...actions})(Footer);
+export default connect(mapStateToProps, {...actions})(Footer);
 `
