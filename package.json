@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-scss-setup",
+  "name": "react-redux-scss-setup1",
   "version": "1.0.0",
   "description": "biolerplate for react app setup with redux, redux-thunk, scss, css, react-router-dom, eslint, husky",
   "main": "index.js",

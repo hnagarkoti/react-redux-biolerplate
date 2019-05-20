@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 let shell = require('shelljs')
-let colors = require('colors')
+let colors = require('colors') // adding to make colorful logs
 let fs = require('fs') //fs already comes included with node.
 let templates = require('./templates/templates.js')
 
@@ -94,4 +94,3 @@ const updateTemplates = () => {
 }
 
 run()
-// updateTemplates()

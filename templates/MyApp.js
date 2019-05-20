@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import actions from '../actions';
-import imageUrl from '../images/smiley.gif';
 
 const Title = styled.h3\`
   font-size: 1.5em;
@@ -19,8 +18,6 @@ const Wrapper = styled.section\`
   background: papayawhip;
 \`;
 const AppWrapper = styled.div\`
-  background-image: url(\${imageUrl});
-  background-repeat:no-repeat;
   width:48px;
   height:48px;
   padding-left: 20px;
