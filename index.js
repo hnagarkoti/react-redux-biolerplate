@@ -110,7 +110,7 @@ const installPackages = () => {
     })
     // console.log('installPackages:-- ', installablePackages[1].join(' '), 'for dev ',installablePackages[0].join(' '))
     console.log(`\nInstalling redux, react-router, react-router-dom, react-redux, and redux-thunk ${installablePackages[1].join(' ')}\n`.cyan)
-    shell.exec(`npm install --save redux react-router react-redux redux-thunk ${installablePackages[1].join(' ')}`, () => {
+    shell.exec(`npm install --save redux react-router react-router-dom react-redux redux-thunk ${installablePackages[1].join(' ')}`, () => {
       if(installablePackages[0].length){
         shell.exec(`npm install --save-dev ${installablePackages[0].join(' ')}`, () => {
           console.log("\nFinished installing packages installablePackages\n".green)
